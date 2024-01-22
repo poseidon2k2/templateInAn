@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/style.css" >
+	<title>Yêu cầu in gia công</title>
+	<script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div id="top-header">
+			<div class="container">
+				<div class="wrap-top-header">
+					<div class="top-header-info">
+						<marquee>
+						<span class="header-info-local">
+							<i class="fas fa-map-marker-alt" style="width:  20px;"></i>P922, HH2A, Linh Đàm, Hoàng Mai, Hà Nội.</span>
+						<span class="header-info-mail"><i class="fas fa-envelope" style="width: 25px;"></i>info.notelvietnam@gmail.com</span>
+						</marquee>
+					</div>
+					<div class="top-header-social">
+						<span class="social fb"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+						<span class="social tw"><a href=""><i class="fab fa-twitter"></i></a></span>
+						<span class="social yt"><a href=""><i class="fab fa-youtube"></i></a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---->
+		<div id="main-header">
+			<div class="container">
+				<div class="wrap-main-header">
+					<div id="logo">
+						<div class="logo-wrap">
+							<a href="#" >
+								<img src="../img/logo.png" alt="Logo"></a></div>
+					</div>
+					<div id="hotline-header">
+						<div class="row">
+							<div class="col-3" >
+								<img src="../icon/phone.png">
+							</div>
+							<div class="col">
+								<span class="phone-number">0790656666</span>
+								<span class="sub-phone">Hotline nhận đơn <i class="fas fa-arrow-right"></i></span>
+							</div>
+						</div>
+					</div>
+					<div id="search-header">
+						<form action="" method="post">
+							<div class="wrap-form-search">
+								<span class="wrap-input">
+									<input type="text" name="search_product" id="search_product" class="search-ajax" value="" placeholder="Tìm kiếm sản phẩm...">
+								</span>
+								<button type="submit" class="btn-search">
+									<span class="icon-search"><i class="fas fa-search"></i></span>
+								</button>
+							</div>
+						</form>
+						<div id="load-data"></div>
+					</div>
+				
+			</div>
+		</div>
+		<!---->
+		<div id="bottom-header">	
+			<div class="overlay-bottom-header"></div>
+			<div class="container">
+				<div class="wrap-bottom-menu">
+				<div class="row" style="border: 1px dashed white">
+					<div class="col-xl-3 col-lg-4 col-sm-6 col-9 z-3">
+						<div class="wrap-list-cate">
+							<h3 class="cate-title show-mobile-cate" >
+								<i class="fas fa-bars" style="width: 25px"></i>Danh mục sản phẩm</h3>
+								<ul id="cate-menu" class="cate-menu menu-pc">
+									<li class="menu-item">
+										<a href="danhmucsphopgiay.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp giấy</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp bánh trung thu</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Túi giấy</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Catalogue</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Name card</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Nhãn Decal</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phiếu quà tặng</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phong bì thư</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tiêu đề thư</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tờ gấp</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tờ rơi</span></a>
+									</li>
+									<li id="menu-item-69" class="menu-item"><a href="danhmucsp.html">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+									</li>
+								</ul>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-8 col-sm-6 col-3 z-3">
+						<ul id="bottom-menu" class="main-menu menu-pc">
+							<li class="menu-item">
+								<a href="../index.html">Trang Chủ</a>
+							</li>
+							<li class="menu-item">
+								<a href="lienhe.html" >Giới Thiệu</a>
+							</li>
+							
+							<li class="menu-item">
+								<a href="yeucauin.html">Thiết Kế</a>
+							</li>
+							<li class="menu-item">
+								<a href="tintuc.html">Tin Tức</a>
+							</li>
+							<li class="menu-item">
+								<a href="datin.html">Báo giá nhanh</a>
+							</li>
+						</ul>						
+						<span class="menu-icon show-mobile-main"><i class="fas fa-bars"></i></span>
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</div>
+		<div id="menu-mobile">
+			<div class="overlay"></div>
+				<div class="wrap-menu-mobile">
+					<ul id="main-mobile-menu" class="main-menu menu-mobile">
+						<li class="menu-item">
+								<a href="../index.html">Trang Chủ</a>
+							</li>
+							<li class="menu-item">
+								<a href="lienhe.html" >Giới Thiệu</a>
+							</li>
+							
+							<li class="menu-item">
+								<a href="yeucauin.html">Thiết Kế</a>
+							</li>
+							<li class="menu-item">
+								<a href="tintuc.html">Tin Tức</a>
+							</li>
+							<li class="menu-item">
+								<a href="datin.html">Báo giá nhanh</a>
+							</li>
+					</ul>
+					<ul id="cate-menu" class="cate-menu menu-mobile">
+						<li class="menu-item">
+							<a href="danhmucsphopgiay.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp giấy</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp bánh trung thu</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Túi giấy</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Catalogue</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Name card</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Nhãn Decal</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phiếu quà tặng</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phong bì thư</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tiêu đề thư</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tờ gấp</span></a>
+						</li>
+						<li class="menu-item">
+							<a href="danhmucsp.html" class="menu-image-title-after"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tờ rơi</span></a>
+						</li>
+						<li class="menu-item"><a href="danhmucsp.html">Xem tất cả <i class="fas fa-arrow-right"></i></a></li>
+					</ul>
+				</div>
+		</div>
+	</header>
+	<!-- end header -->
+		<section id="header-cover">
+    		<div class="overlay"></div>
+    			<div class="container">
+        			<h1 class="page-title">Yêu cầu in gia công</h1>
+        			<p class="breadcrumb">
+        				<span>
+        					<a href="#"><i class="fas fa-home"></i></a> <span class="divider">|</span><strong class="breadcrumb_last">Yêu cầu in gia công</strong>
+        				</span>
+        			</p> 
+        		   </div>
+		</section>
+<main>
+    <div class="container">
+        <div class="wrap-page-request">
+            	<h2 class="page-template-title request"><i class="fas fa-shopping-cart" style="width: 40px"></i>Yêu cầu in gia công</h2>
+	           <div class="wrap-form-request">
+				   <div class="row">
+						<form>
+							<input type="text" name="product-name" value="" size="45" placeholder="Tên sản phẩm cần in" class="input-yc">
+							<input type="text" name="name" value="" size="45" placeholder="Họ tên*" class="input-yc">
+							<input type="text" name="time" value="" size="45" placeholder="Thời gian bạn muốn nhận hàng" class="input-yc">
+							<input type="tel" name="phone-number" value="" size="45" placeholder="Điện thoại*" class="input-yc">
+							<input type="text" name="qty" value="" size="45" placeholder="Số lượng" class="input-yc">
+							<input type="text" name="email" value="" size="45" placeholder="Email" class="input-yc">
+							<input type="text" name="size" value="" size="45" placeholder="Kích thước" class="input-yc">
+							<input type="text" name="other" value="" size="45" placeholder="Yêu cầu khác..." class="input-yc">
+							<span style="display: block; width: 105px;  height: 50px;  background: #e25286; position: absolute; border-radius: 30px 0 0 30px;padding-left: 25px;padding-top: 7px;cursor: pointer;" class="cloud-upload-file"><img src="../icon/upload.png"></span>
+							<input type="file" name="file" value="" size="45" placeholder="Tên sản phẩm cần in*" class="file-upload">
+							
+							<button type="button" onclick="toggleBtn()" style="width: 440px;" class="submit-datin">Hoàn Thành</button>
+							<div style="text-align: center;opacity: 0;margin-top: 30px" id="complete" >
+                        		<span>(Đơn hàng gửi thành công cảm ơn quý khách!)</span>
+                        	</div>
+                        </form>
+						
+					</div>
+				</div>	
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div id="footer-top" class="widget-footer">
+            <div id="logo-footer">
+                <div class="logo-wrap">
+                    <a href="#" >
+                        <img src="../img/logo-footer.png" alt="Logo">
+                    </a>
+                </div>
+                <div id="text-cover">
+                	<p>It is a long established fact that a reader will be distracted by the readable content page looking.</p>
+                </div>
+                <div class="top-footer-social">
+                    <span class="social fb"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+                    <span class="social tw"><a href=""><i class="fab fa-twitter"></i></a></span>
+                    <span class="social yt"><a href=""><i class="fab fa-youtube"></i></a></span>
+                </div>
+            </div>
+        </div>
+        <div id="footer-main" class="widget-footer">
+            <ul class="wrap-widget-main">
+        		<li id="custom_html-2" class="widget_text widget">
+        			<h3 class="widgettitle">Thông tin liên hệ</h2>
+					<div class="textwidget">
+						<div class="widget info-address">
+							<span class="icon-info local">
+								<i class="fas fa-map-marker-alt"></i></span><span>VPGD: P922 HH2A,<br> Linh Đàm, Hoàng Mai, Hà Nội</span>
+						</div>
+						<div class="widget info-time">
+							<span class="icon-info time">
+								<i class="far fa-clock"></i></span><span>Thời gian làm việc:<br>Thứ 2 - Thứ 7: 08h00 - 17h00</span>
+						</div>
+						<div class="widget info-phone">
+							<span class="icon-info phone">
+								<i class="fas fa-phone-alt"></i></span><span>Hotline: 079 605 6666<br>Email: info.notelvietnam@gmail.com</span>
+						</div>
+					</div>
+				</li>
+				<li id="nav_menu-3" class="widget widget_nav_menu">
+					<h3 class="widgettitle">Danh mục sản phẩm</h3>
+					<div class="menu-danh-muc-san-pham-footer-container">
+						<ul id="menu-danh-muc-san-pham-footer" class="menu">
+							<li id="menu-item-84" class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Catalogue</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">File kẹp hồ sơ</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp bánh trung thu</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Hộp giấy</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Name card</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item ">
+								<ul class="sub-menu">
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Nhãn Decal</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phiếu quà tặng</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"></span><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Phong bì thư</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tiêu đề thư</span></a>
+									</li>
+									<li class="menu-item">
+										<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tờ gấp</span></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li id="nav_menu-4" class="widget widget_nav_menu">
+					<h3 class="widgettitle">Thông tin chung</h3>
+					<div>
+						<ul  class="menu">
+							<li class="menu-item">
+								<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Trang chủ</span></a>
+							</li>
+							<li class="menu-item">
+								<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Giới thiệu</span></a>
+							</li>
+							<li class="menu-item">
+								<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Chia sẻ câu chuyện</span></a>
+							</li>
+							<li class="menu-item">
+								<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Tuyển dụng</span></a>
+							</li>
+							<li class="menu-item">
+								<a href="#"><i class="fas fa-caret-right"></i><span class="menu-image-title-after menu-image-title">Liên hệ</span></a>
+							</li>
+						</ul>
+					</div>
+				</li>
+   			</ul>
+        </div>
+        <div class="widget-footer">          
+            <form action="" method="post" class="wrap-form-footer">
+                <div class="form-control footer-input">
+                    <span class="wrap-form-ft">
+                        <input type="text" name="name_footer" id="name_footer" value="" required="" placeholder="Nhập tên bạn...">
+                    </span>
+                    <span class="wrap-form-ft">
+                    	<input type="email" name="email_footer" id="email_footer" value="" required="" placeholder="Nhập email...">
+                    </span> 
+                </div>
+                <div class="form-control footer-submit">
+                    <button type="submit" name="submit_footer">Gửi đi <i class="fas fa-paper-plane" style="margin-left: 10px;"></i></button>
+                </div>
+            </form>            
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <p class="copyright">Copyright © 2021. <span class="second-color">NodelDesign</span> All Rights Reserved</p>
+            </div>
+            <div class="col-lg-6 col-12">
+                <p class="design">Design By <span class="second-color"><a href="#">PutaDesign</a></span></p>
+            </div>
+        </div>
+        </div>
+</div>
+</footer>
+
+
+<script src="../js/jquery.min.js"></script>
+<script>
+    jQuery(document).ready(function(){
+
+        if($(window).width() < 992){
+            $('.show-mobile-main').click(function(){
+            if(!$('#menu-mobile').hasClass('active-main')){
+                $('#menu-mobile').addClass('active-main active-menu');
+            }
+        });
+        $('.show-mobile-cate').click(function(){
+            if(!$('#menu-mobile').hasClass('active-cate')){
+                $('#menu-mobile').addClass('active-cate active-menu');
+            }
+        });
+
+        }
+
+        $('#menu-mobile .overlay').click(function(){
+            if($('#menu-mobile').hasClass('active-menu')){
+                $('#menu-mobile').removeClass('active-menu active-main active-cate');
+            }
+        });
+
+        if($(window).width() > 992){
+            $('.cate-title').click(function(){
+                if(!$('#cate-menu').hasClass('active-menu')){
+                    $('#cate-menu').addClass('active-menu');
+                }else{
+                    $('#cate-menu').removeClass('active-menu');
+                }
+            })
+        };
+    })
+	new WOW().init();
+</script>
+<script type="text/javascript">
+	var cplete =document.getElementById("complete");
+		function toggleBtn(){
+			cplete.classList.toggle("on");
+		}
+</script>
+</body>
+</html>
+
+
